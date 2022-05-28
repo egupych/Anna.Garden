@@ -2,32 +2,32 @@
 //Анимация слайдов карусели
 //::::::::::::::::::::::::::::::::::::::::::::::::::
 
-const slides = document.querySelectorAll(".slide");
+// const slides = document.querySelectorAll(".slide");
 
-for (const slide of slides) {
-  slide.addEventListener("mouseover", () => {
-    clearActiveClasses();
+// for (const slide of slides) {
+//   slide.addEventListener("mouseover", () => {
+//     clearActiveClasses();
     
-    slide.classList.add("active");
-  });
-}
+//     slide.classList.add("active");
+//   });
+// }
 
-function clearActiveClasses() {
-  slides.forEach((slide) => {
-    slide.classList.remove("active");
-  });
-}
+// function clearActiveClasses() {
+//   slides.forEach((slide) => {
+//     slide.classList.remove("active");
+//   });
+// }
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::
 //Анимация прокрутки до якоря
 //::::::::::::::::::::::::::::::::::::::::::::::::::
 
-function setScrollIntoView1(top) {
+function setScrollIntoView(top) {
 	const me = document.querySelector('.me');
 	me.scrollIntoView(top);
 }
 
-function setScrollIntoView1Options(top) {
+function setScrollIntoViewOptions(top) {
 	const me = document.querySelector('.me');
 	me.scrollIntoView({
 		block: "start",
@@ -36,75 +36,6 @@ function setScrollIntoView1Options(top) {
 	});
 }
 
-function setScrollIntoView2(top) {
-	const lesson = document.querySelector('.lesson');
-	lesson.scrollIntoView(top);
-}
-
-function setScrollIntoView2Options(top) {
-	const lesson = document.querySelector('.lesson');
-	lesson.scrollIntoView({
-		block: "start",
-		inline: "nearest",
-		behavior: "smooth"
-	});
-}
-
-function setScrollIntoView3(top) {
-	const boxprice = document.querySelector('.boxprice');
-	boxprice.scrollIntoView(top);
-}
-
-function setScrollIntoView3Options(top) {
-	const boxprice = document.querySelector('.boxprice');
-	boxprice.scrollIntoView({
-		block: "start",
-		inline: "nearest",
-		behavior: "smooth"
-	});
-}
-
-function setScrollIntoView4(top) {
-	const themes = document.querySelector('.themes');
-	themes.scrollIntoView(top);
-}
-
-function setScrollIntoView4Options(top) {
-	const themes = document.querySelector('.themes');
-	themes.scrollIntoView({
-		block: "start",
-		inline: "nearest",
-		behavior: "smooth"
-	});
-}
-
-function setScrollIntoView5(top) {
-	const header = document.querySelector('header');
-	header.scrollIntoView(top);
-}
-
-function setScrollIntoView5Options(top) {
-	const header = document.querySelector('header');
-	header.scrollIntoView({
-		block: "start",
-		inline: "nearest",
-		behavior: "smooth"
-	});
-}
-
-function setScrollIntoView6(top) {
-	const header = document.querySelector('header');
-	header.scrollIntoView(top);
-}
-
-function setScrollIntoView6Options(top) {
-	const header = document.querySelector('header');
-	header.scrollIntoView({
-		block: "start",
-		inline: "nearest",
-		behavior: "smooth"
-	});
-}
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::
 // Кастомный курсор
@@ -201,4 +132,29 @@ if (animItems.length>0) {
 //     const tr = `translateY(${y}px)`
 //     document.body.style.transform = tr
 
-// })"
+// })
+
+document.addEventListener('DOMContentLoaded', () => {
+  
+	//===== MICRO-SLIDER begin
+	const __ms = document.querySelector('.micro-slider');
+	const __msSlider = new MicroSlider(__ms, { indicators: true, indicatorText: '' });
+	const hammer = new Hammer(__ms);
+	  const __msTimer = 3000;
+	let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+	  
+	
+	//detect gesture tap event with hammer js library
+	hammer.on('tap', function(e) {
+	  clearInterval(__msAutoplay);
+	  console.log(e.type + ' gesture detected');
+	});
+	
+	//detect gesture swipe event with hammer js library
+	hammer.on('swipe', function(e) {
+	  clearInterval(__msAutoplay); 
+	  __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+	  console.log(e.type + ' gesture detected');
+	});
+	
+  });
