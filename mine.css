@@ -1,0 +1,246 @@
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/* Обнуление                                        */
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+  :focus,
+  :active {
+	outline: none;
+  }
+  a:focus,
+  a:active {
+	outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+	display: block;
+  }
+  
+  html {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	overflow-x:hidden;
+  }
+
+  body {
+	width: 100%;
+	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	overflow-x:hidden;
+  }
+  
+  
+  input,
+  button,
+  textarea {
+	font-family: inherit;
+  }
+  
+  input::-ms-clear {
+	display: none;
+  }
+  button {
+	cursor: pointer;
+  }
+  button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+  }
+  a,
+  a:visited {
+	text-decoration: none;
+  }
+  a:hover {
+	text-decoration: none;
+  }
+  ul li {
+	list-style: none;
+  }
+
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+	font-size: inherit;
+	font-weight: 400;
+  }
+  
+  .bigred {
+	font-size: 20px;
+	color: red;
+  }
+
+  
+  * {
+	color: rgb(20, 20, 20);
+  }
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+	font-size: 1.2vw;
+	transition: transform 1000ms;
+	user-select: none; /* Не даёт взаимодействовать с текстом */
+}
+
+
+/* Override UGG site */
+#main {width: 100%; padding:0;}
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
+
+
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h2 {font-size:3vh; line-height:0; font-weight:300; letter-spacing:1vh; text-transform: uppercase; color:black;}
+
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {background: white; padding-top: 10vh; padding-bottom: 10vh; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title2 {background: white; padding-top: 10vh; padding-bottom: 10vh; margin:0 auto; text-align:center;}
+
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {overflow: hidden; 
+  position: relative; width: 100%; background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1440&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 7vw; padding-bottom: 7vw; overflow: hidden; 
+  position: relative; width: 100%; background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1569511850437-6dfab062c00b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1518&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 7vw; padding-bottom: 7vw; overflow: hidden; 
+  position: relative; width: 100%; background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1566765854606-372e7bdee473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1440&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+
+
+.block {
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+  display: flex;
+}
+
+
+.alt_block {
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+  display: flex;
+  background-color: #f6f6f6;
+}
+
+.block_argument {
+  margin-left: 15vw;
+  align-self: center;
+  width: 35%;
+}
+
+.alt_block_argument {
+  margin-left: 10vw;
+  align-self: center;
+  width: 35%;
+}
+
+.before_argument {
+  padding-top: 2.5vw;
+  font-size: 1.4vw;
+  padding-bottom: 2.5vw;
+  font-weight: 400; 
+  color: #bdb76b;
+  align-self: center;
+  width: 30vw;
+  letter-spacing: 0.1vw;
+}
+
+.argument {
+  font-size: 2.4vw;
+  padding-bottom: 2.5vw;
+  font-weight: 300; 
+  color: #3f3f3f;
+  width: 30vw;
+  letter-spacing: 0.1vw;
+}
+
+.after_argument {
+  font-size: 1.2vw;
+  padding-bottom: 2.5vw;
+  font-weight: 400; 
+  color: #7f7f7f;
+  width: 30vw;
+  letter-spacing: 0.02vw;
+  word-spacing: 0.2vw;
+}
+
+.postIMG{
+  min-height: 35vw;
+  width: 50%;
+  background-size: cover; 
+  -moz-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center;
+}
+
+.alt_postIMG{
+  min-height: 35vw;
+  width: 50%;
+  background-size: cover; 
+  -moz-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center;
+}
+
+.parallax-one {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  align-items: center;
+  /* transition: all 1800ms ease-out; */
+}
+/* 
+.parallax-one:hover {
+  filter: none;
+} */
+
+.parallax-one img{
+  height: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
