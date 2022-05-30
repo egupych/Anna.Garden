@@ -277,7 +277,7 @@ header {
 .parallax-one {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 45vw;
   align-items: center;
   /* transition: all 1800ms ease-out; */
 }
@@ -285,7 +285,7 @@ header {
 .parallax-two {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 45vw;
   align-items: center;
   /* transition: all 1800ms ease-out; */
 }
@@ -293,9 +293,9 @@ header {
 .parallax-three {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 45vw;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 5vw;
   /* transition: all 1800ms ease-out; */
 }
 /* 
@@ -304,7 +304,7 @@ header {
 } */
 
 .parallax-one img{
-  height: 20vh;
+  height: 10vw;
 }
 
 
