@@ -277,7 +277,7 @@ header {
 .parallax-one {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 32vw;
   align-items: center;
   /* transition: all 1800ms ease-out; */
 }
@@ -285,7 +285,7 @@ header {
 .parallax-two {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 32vw;
   align-items: center;
   /* transition: all 1800ms ease-out; */
 }
@@ -293,9 +293,9 @@ header {
 .parallax-three {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 32vw;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 5vw;
   /* transition: all 1800ms ease-out; */
 }
 /* 
@@ -304,7 +304,7 @@ header {
 } */
 
 .parallax-one img{
-  height: 20vh;
+  height: 10vw;
 }
 
 
@@ -505,21 +505,6 @@ transition: 0.5s;
 	}
 
 
-@media screen  and (max-width: 1076px) {
-
-
-/* Typography */
-/**************************/
-h2 {font-size:2.3vh; font-weight:400; letter-spacing:0.3vh; text-transform: uppercase; color:#3f3f3f;}
-h3 {font-size:2.4vh; font-weight:300; letter-spacing:0.4vh; text-transform: uppercase; color:#f4f4f4; line-height: 4vh;
-text-align: center; transform: translate(0px, 1.5vh);
-opacity: 0;
-transition: all 0.3s ease 0s;}
-
-
-
-}
-
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Адаптив                                          */
@@ -663,7 +648,7 @@ transition: all 0.3s ease 0s;}
   .parallax-one {
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: 76.8vw;
     align-items: center;
     /* transition: all 1800ms ease-out; */
   }
@@ -671,7 +656,7 @@ transition: all 0.3s ease 0s;}
   .parallax-two {
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: 76.8vw;
     align-items: center;
     /* transition: all 1800ms ease-out; */
   }
@@ -679,9 +664,9 @@ transition: all 0.3s ease 0s;}
   .parallax-three {
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: 76.8vw;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 5vw;
     /* transition: all 1800ms ease-out; */
   }
   /* 
@@ -690,7 +675,7 @@ transition: all 0.3s ease 0s;}
   } */
   
   .parallax-one img{
-    height: 10vh;
+    height: 10vw;
   }
 
 }
