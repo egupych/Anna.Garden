@@ -145,6 +145,8 @@ header {
   margin-top: 8vw;
   margin-bottom: 8vw;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .block1 {
@@ -156,6 +158,7 @@ header {
   margin-top: 8vw;
   margin-bottom: 8vw;
   display: flex;
+  flex-wrap: wrap;
   background-color: #f6f6f6;
 }
 
@@ -166,15 +169,17 @@ header {
 }
 
 .block_argument {
-  margin-left: 10vw;
   align-self: center;
-  width: 40%;
+  width: 50%;
+  padding-left: 8vw;
+  padding-right: 8vw;
 }
 
 .alt_block_argument {
-  margin-left: 10vw;
   align-self: center;
-  width: 35%;
+  width: 50%;
+  padding-left: 8vw;
+  padding-right: 8vw;
 }
 
 .premier_block_argument {
@@ -185,13 +190,12 @@ header {
 
 
 .before_argument {
-  padding-top: 2.5vw;
   font-size: 1.4vw;
   padding-bottom: 2.5vw;
   font-weight: 400; 
   color: #bdb76b;
   align-self: center;
-  width: 30vw;
+
   letter-spacing: 0.1vw;
   transform: translate(0px, 1.5vw);
   opacity: 0;
@@ -209,7 +213,6 @@ header {
   padding-bottom: 2vw;
   font-weight: 300; 
   color: #3f3f3f;
-  width: 30vw;
   letter-spacing: 0.1vw;
 }
 
@@ -226,7 +229,6 @@ header {
   padding-bottom: 2vw;
   font-weight: 400; 
   color: #7f7f7f;
-  width: 30vw;
   letter-spacing: 0.02vw;
   word-spacing: 0.2vw;
 }
@@ -518,9 +520,7 @@ transition: 0.5s;
     font-size: 2.8vw;
   }
   
-  
-  /* Typography */
-  /**************************/
+
   h2 {font-size:3.1vw; font-weight:400; letter-spacing:0.7vw; }
   h3 {font-size:5.7vw; font-weight:300; letter-spacing:0.9vw; line-height: 9.6vw;
   transform: translate(0px, 3.6vw);}
@@ -529,8 +529,7 @@ transition: 0.5s;
   h3._active {font-size:5.7vw; font-weight:300; letter-spacing:0.9vw; line-height: 9vw;}
   
   
-  /* Section - Parallax */
-  /**************************/
+
   .parallax-two {padding-top: 16vw; padding-bottom: 16vw;}
   .parallax-three {padding-top: 16vw; padding-bottom: 16vw;}
   
@@ -564,16 +563,19 @@ transition: 0.5s;
     display: flex;
   }
   
+
   .block_argument {
-    margin-left: 24vw;
     align-self: center;
-    width: 40%;
+    width: 100%;
+    padding-left: 20vw;
+    padding-right: 20vw;
   }
   
   .alt_block_argument {
-    margin-left: 24vw;
     align-self: center;
-    width: 35%;
+    width: 100%;
+    padding-left: 20vw;
+    padding-right: 20vw;
   }
   
   .premier_block_argument {
@@ -603,7 +605,6 @@ transition: 0.5s;
     padding-bottom: 4.8vw;
     font-weight: 300; 
     color: #3f3f3f;
-    width: 72vw;
     letter-spacing: 0.2vw;
   }
   
@@ -620,7 +621,6 @@ transition: 0.5s;
     padding-bottom: 4.8vw;
     font-weight: 400; 
     color: #7f7f7f;
-    width: 72vw;
     letter-spacing: 0.04vw;
     word-spacing: 0.4vw;
   }
@@ -635,14 +635,14 @@ transition: 0.5s;
   }
   
   .postIMG{
-    min-height: 84vw;
-    width: 50%;
+    min-height: 50vw;
+    width: 100%;
   }
   
   
   .alt_postIMG{
-    min-height: 84vw;
-    width: 50%;
+    min-height: 50vw;
+    width: 100%;
   }
   
   .parallax-one {
@@ -650,7 +650,7 @@ transition: 0.5s;
     justify-content: center;
     height: 76.8vw;
     align-items: center;
-    /* transition: all 1800ms ease-out; */
+  
   }
   
   .parallax-two {
@@ -658,7 +658,7 @@ transition: 0.5s;
     justify-content: center;
     height: 76.8vw;
     align-items: center;
-    /* transition: all 1800ms ease-out; */
+   
   }
   
   .parallax-three {
@@ -667,15 +667,12 @@ transition: 0.5s;
     height: 76.8vw;
     align-items: center;
     margin-top: 5vw;
-    /* transition: all 1800ms ease-out; */
+   
   }
-  /* 
-  .parallax-one:hover {
-    filter: none;
-  } */
+
   
   .parallax-one img{
     height: 10vw;
   }
 
-}
+} 
