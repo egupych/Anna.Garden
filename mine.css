@@ -277,7 +277,7 @@ header {
 .parallax-one {
   display: flex;
   justify-content: center;
-  height: 45vw;
+  height: 38vw;
   align-items: center;
   /* transition: all 1800ms ease-out; */
 }
@@ -285,7 +285,7 @@ header {
 .parallax-two {
   display: flex;
   justify-content: center;
-  height: 45vw;
+  height: 38vw;
   align-items: center;
   /* transition: all 1800ms ease-out; */
 }
@@ -293,7 +293,7 @@ header {
 .parallax-three {
   display: flex;
   justify-content: center;
-  height: 45vw;
+  height: 38vw;
   align-items: center;
   margin-top: 5vw;
   /* transition: all 1800ms ease-out; */
