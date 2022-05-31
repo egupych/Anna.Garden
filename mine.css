@@ -756,15 +756,18 @@ transition: 0.5s;
     height: 60vw;
     line-height: 60vw;
     width: 60vw;
+    display: none;
   }
 
   .text {
     font-size: 1.3vw;
+    display: none;
   }
   
   .text span {
     top: -9.6vw;
     transform-origin: 0 9.6vw;
+    display: none;
   }
   
 }
