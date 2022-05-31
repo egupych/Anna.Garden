@@ -566,15 +566,14 @@ transition: 0.5s;
   .block_argument {
     align-self: center;
     width: 100%;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding: 20vw;
   }
   
   .alt_block_argument {
     align-self: center;
     width: 100%;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding: 20vw;
+}
   }
   
   .premier_block_argument {
