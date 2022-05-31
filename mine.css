@@ -294,7 +294,7 @@ header {
 .parallax-three {
   display: flex;
   justify-content: center;
-  height: 32vw;
+  height: 24vw;
   align-items: center;
   margin-top: 5vw;
   /* transition: all 1800ms ease-out; */
