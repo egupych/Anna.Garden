@@ -516,7 +516,7 @@ transition: 0.5s;
     letter-spacing: 0.1vw;
   }
   
-  .container {
+  .container__timer {
     color: #3f3f3f;
     margin: 0 auto;
     text-align: center;
@@ -531,11 +531,44 @@ transition: 0.5s;
     text-transform: uppercase;
   }
   
-  li span {
+  li div {
     display: block;
     font-size: 5vw;
   }
-  
+
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/* Текст вокруг курсора                             */
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.text {
+  position: absolute;
+  color: #3f3f3f;
+  font-size: 0.6vw;
+  user-select: none;
+  pointer-events: none;
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0%
+  {
+    transform: rotate(360deg);
+  }
+  100% 
+  {
+    transform: rotate(0deg);
+  }
+}
+
+.text span {
+  display: inline-block;
+  position: absolute;
+  top: -4vw;
+  text-transform: uppercase;
+  transform-origin: 0 4vw;
+}
+
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Адаптив                                          */
@@ -711,7 +744,7 @@ transition: 0.5s;
     padding: 3.2vw;
   }
   
-  li span {
+  li div {
     font-size: 9.6vw;
   }
 
@@ -725,4 +758,13 @@ transition: 0.5s;
     width: 60vw;
   }
 
+  .text {
+    font-size: 1.3vw;
+  }
+  
+  .text span {
+    top: -9.6vw;
+    transform-origin: 0 9.6vw;
+  }
+  
 }
