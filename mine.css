@@ -528,7 +528,7 @@ transition: 0.5s;
   
   h3._active {font-size:5.7vw; font-weight:300; letter-spacing:0.9vw; line-height: 9vw;}
   
-    .title .title2 {display: none}
+    .title, .title2 {display: none}
 
   .parallax-two {padding-top: 16vw; padding-bottom: 16vw;}
   .parallax-three {padding-top: 16vw; padding-bottom: 16vw;}
