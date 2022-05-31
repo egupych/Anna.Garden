@@ -655,6 +655,7 @@ transition: 0.5s;
     justify-content: center;
     height: 76.8vw;
     align-items: center;
+    margin-bottom: 20vw;
   }
   
   .parallax-three {
