@@ -226,7 +226,6 @@ header {
 
 .after_argument {
   font-size: 1.2vw;
-  padding-bottom: 2vw;
   font-weight: 400; 
   color: #7f7f7f;
   letter-spacing: 0.02vw;
@@ -586,7 +585,6 @@ transition: 0.5s;
   
   
   .before_argument {
-    padding-top: 6vw;
     font-size: 3.3vw;
     padding-bottom: 6vw;
     font-weight: 400; 
@@ -618,7 +616,6 @@ transition: 0.5s;
   
   .after_argument {
     font-size: 2.8vw;
-    padding-bottom: 4.8vw;
     font-weight: 400; 
     color: #7f7f7f;
     letter-spacing: 0.04vw;
