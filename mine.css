@@ -191,7 +191,6 @@ header {
 
 .before_argument {
   font-size: 1.4vw;
-  padding-bottom: 2.5vw;
   font-weight: 400; 
   color: #bdb76b;
   align-self: center;
@@ -210,6 +209,7 @@ header {
 
 .argument {
   font-size: 2.4vw;
+  padding-top: 2vw;
   padding-bottom: 2vw;
   font-weight: 300; 
   color: #3f3f3f;
@@ -234,7 +234,6 @@ header {
 
 .prime_after_argument {
   font-size: 1.2vw;
-  padding-bottom: 2vw;
   font-weight: 400; 
   color: #7f7f7f;
   letter-spacing: 0.02vw;
@@ -278,7 +277,7 @@ header {
 .parallax-one {
   display: flex;
   justify-content: center;
-  height: 32vw;
+  height: 35vw;
   align-items: center;
   /* transition: all 1800ms ease-out; */
 }
@@ -286,7 +285,7 @@ header {
 .parallax-two {
   display: flex;
   justify-content: center;
-  height: 32vw;
+  height: 35vw;
   align-items: center;
   /* transition: all 1800ms ease-out; */
 }
@@ -305,10 +304,10 @@ header {
 } */
 
 .parallax-one img{
-  height: 10vw;
+  height: 11vw;
 }
 
-
+/* 
 .product {
   display: flex;
   justify-content: space-evenly;
@@ -457,39 +456,37 @@ transition: 0.5s;
   display: block;
   position: relative;
   text-align: center;
-}
+} */
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/* Слайдер                                          */
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 .micro-slider {
-  height: 60vh;
+  height: 38vw;
   position: relative;
   width: 100%;
+}
 
-}
-.micro-slider.fullwidth {
-  height: 60vh;
-}
-.micro-slider.fullwidth .slider-item {
-  height: 60vh;
-  width: 100%
-}
 .slider-wrapper {
   overflow: hidden;
   position: relative;
   transform-style: preserve-3d;
   transform-origin: 0 50%;
 }
+
 .slider-item {
   background: #FFF;
   color: #FFF;
   display: none;
-  height: 50vh;
-  line-height: 50vh;
+  height: 25vw;
+  line-height: 25vw;
   left: 0;
   position: absolute;
   text-align: center;
   top: 0;
-  width: 50vh;
-  cursor: pointer;
+  width: 25vw;
+  cursor: grab;
 }
 
 
@@ -506,13 +503,46 @@ transition: 0.5s;
 	}
 
 
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/* Счётчик                                          */
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+  h5 {
+    font-size: 2.4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-weight: 300; 
+    color: #3f3f3f;
+    letter-spacing: 0.1vw;
+  }
+  
+  .container {
+    color: #3f3f3f;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  li {
+    display: inline-block;
+    font-size: 1.7vw;
+    list-style-type: none;
+    padding: 2vw;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 5vw;
+  }
+  
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Адаптив                                          */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 
-@media screen  and (max-width: 576px) {{
+@media screen  and (max-width: 576px) {
 
 
   body {
@@ -586,7 +616,6 @@ transition: 0.5s;
   
   .before_argument {
     font-size: 3.3vw;
-    padding-bottom: 6vw;
     font-weight: 400; 
     color: #bdb76b;
     align-self: center;
@@ -600,6 +629,7 @@ transition: 0.5s;
   
   .argument {
     font-size: 5.7vw;
+    padding-top: 4.8vw;
     padding-bottom: 4.8vw;
     font-weight: 300; 
     color: #3f3f3f;
@@ -624,7 +654,6 @@ transition: 0.5s;
   
   .prime_after_argument {
     font-size: 2.8vw;
-    padding-bottom: 4.8vw;
     font-weight: 400; 
     color: #7f7f7f;
     letter-spacing: 0.04vw;
@@ -632,13 +661,13 @@ transition: 0.5s;
   }
   
   .postIMG{
-    min-height: 70vw;
+    min-height: 75vw;
     width: 100%;
   }
   
   
   .alt_postIMG{
-    min-height: 70vw;
+    min-height: 75vw;
     width: 100%;
   }
   
@@ -652,7 +681,7 @@ transition: 0.5s;
   .parallax-two {
     display: flex;
     justify-content: center;
-    height: 76.8vw;
+    height: 75vw;
     align-items: center;
     margin-bottom: 20vw;
   }
@@ -660,65 +689,40 @@ transition: 0.5s;
   .parallax-three {
     display: flex;
     justify-content: center;
-    height: 76.8vw;
+    height: 50vw;
     align-items: center;
-    margin-top: 5vw;
-   
+    margin-top: 12vw;
   }
 
   
   .parallax-one img{
-    height: 18vw;
+    height: 20vw;
   }
 
-}}
-
-
-.container {
-  color: #333;
-  margin: 0 auto;
-  text-align: center;
-}
-
-h1 {
-  font-weight: normal;
-  letter-spacing: .125rem;
-  text-transform: uppercase;
-}
-
-li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-
-li span {
-  display: block;
-  font-size: 4.5rem;
-}
-
-.emoji {
-  display: none;
-  padding: 1rem;
-}
-
-.emoji span {
-  font-size: 4rem;
-  padding: 0 .5rem;
-}
-
-@media all and (max-width: 768px) {
-  h1 {
-    font-size: calc(1.5rem * var(--smaller));
+  h5 {
+    font-size: 5.7vw;
+    padding-top: 4.8vw;
+    padding-bottom: 4.8vw;
+    letter-spacing: 0.2vw;
   }
   
   li {
-    font-size: calc(1.125rem * var(--smaller));
+    font-size: 2.7vw;
+    padding: 3.2vw;
   }
   
   li span {
-    font-size: calc(3.375rem * var(--smaller));
+    font-size: 9.6vw;
   }
+
+  .micro-slider {
+    height: 91vw;
+  }
+  
+  .slider-item {
+    height: 60vw;
+    line-height: 60vw;
+    width: 60vw;
+  }
+
 }
