@@ -544,6 +544,7 @@ transition: 0.5s;
     margin-top: 0vw;
     margin-bottom: 0vw;
     display: flex;
+    background-color: #f6f6f6;
   }
   
   .block1 {
