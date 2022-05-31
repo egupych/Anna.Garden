@@ -541,8 +541,8 @@ transition: 0.5s;
   }
   
   .block, .block1 {
-    margin-top: 19vw;
-    margin-bottom: 19vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
     display: flex;
   }
   
@@ -654,6 +654,7 @@ transition: 0.5s;
     justify-content: center;
     height: 76.8vw;
     align-items: center;
+    pa
    
   }
   
