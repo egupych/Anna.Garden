@@ -512,7 +512,7 @@ transition: 0.5s;
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 
-@media screen  and (max-width: 576px) {
+@media screen  and (max-width: 576px) {{
 
 
   body {
@@ -672,4 +672,4 @@ transition: 0.5s;
     height: 18vw;
   }
 
-} 
+}}
