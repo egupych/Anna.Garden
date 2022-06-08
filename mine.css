@@ -194,11 +194,11 @@ header {
   font-weight: 400; 
   color: #bdb76b;
   align-self: center;
-
   letter-spacing: 0.1vw;
-  transform: translate(0px, 1.5vw);
+
+  transform: translate(0px, 3vw);
   opacity: 0;
-  transition: all 0.7s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 .before_argument._active {
@@ -214,6 +214,32 @@ header {
   font-weight: 300; 
   color: #3f3f3f;
   letter-spacing: 0.1vw;
+
+  transform: translate(0px, 5vw);
+  opacity: 0;
+  transition: all 1.2s ease 0s;
+}
+
+.argument._active {
+  transform: translate(0px, 0vw);
+  opacity: 1;
+}
+
+.after_argument {
+  font-size: 1.2vw;
+  font-weight: 400; 
+  color: #7f7f7f;
+  letter-spacing: 0.02vw;
+  word-spacing: 0.2vw;
+
+  transform: translate(0px, 5vw);
+  opacity: 0;
+  transition: all 1.2s ease 0s;
+}
+
+.after_argument._active {
+  transform: translate(0px, 0vw);
+  opacity: 1;
 }
 
 .prime_argument {
@@ -224,13 +250,7 @@ header {
   letter-spacing: 0.1vw;
 }
 
-.after_argument {
-  font-size: 1.2vw;
-  font-weight: 400; 
-  color: #7f7f7f;
-  letter-spacing: 0.02vw;
-  word-spacing: 0.2vw;
-}
+
 
 .prime_after_argument {
   font-size: 1.2vw;
@@ -248,14 +268,16 @@ header {
   -webkit-background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center;
-  filter: brightness(0.7);
-	transition: all 0.5s ease 0s;
+
+  /* transform: translate(3vw, 0vw);
+  opacity: 0;
+  transition: all 1.2s ease 0s; */
 }
 
-.postIMG._active {
-	opacity: 1;
-  filter: none;
-} 
+ /* .postIMG._active {
+  transform: translate(0px, 0vw);
+  opacity: 1;
+}  */
 
 .alt_postIMG{
   min-height: 35vw;
@@ -265,14 +287,14 @@ header {
   -webkit-background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center;
-  filter: brightness(0.7);
-	transition: all 0.7s ease 0s;
+  /* filter: brightness(1);
+	transition: all 0.7s ease 0s; */
 }
 
-.alt_postIMG._active {
+/* .alt_postIMG._active {
 	opacity: 1;
   filter: none;
-} 
+}  */
 
 .parallax-one {
   display: flex;
