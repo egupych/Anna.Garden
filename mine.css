@@ -508,8 +508,7 @@ transition: 0.5s;
   text-align: center;
   top: 0;
   width: 25vw;
-/*   cursor: grab; */
-  user-select: none;
+  cursor: grab;
 }
 
 
@@ -683,7 +682,7 @@ transition: 0.5s;
   
   
   .before_argument {
-    font-size: 3.3vw;
+    font-size: 3.6vw;
     font-weight: 400; 
     color: #bdb76b;
     align-self: center;
@@ -693,7 +692,7 @@ transition: 0.5s;
   
   
   .argument {
-    font-size: 5.7vw;
+    font-size: 6vw;
     padding-top: 4.8vw;
     padding-bottom: 4.8vw;
     font-weight: 300; 
@@ -702,7 +701,7 @@ transition: 0.5s;
   }
   
   .prime_argument {
-    font-size: 5.7vw;
+    font-size: 6vw;
     padding-bottom: 4.8vw;
     font-weight: 300; 
     color: #3f3f3f;
@@ -710,7 +709,7 @@ transition: 0.5s;
   }
   
   .after_argument {
-    font-size: 2.8vw;
+    font-size: 3.1vw;
     font-weight: 400; 
     color: #7f7f7f;
     letter-spacing: 0.04vw;
@@ -718,7 +717,7 @@ transition: 0.5s;
   }
   
   .prime_after_argument {
-    font-size: 2.8vw;
+    font-size: 3.1vw;
     font-weight: 400; 
     color: #7f7f7f;
     letter-spacing: 0.04vw;
@@ -766,14 +765,14 @@ transition: 0.5s;
   }
 
   h5 {
-    font-size: 5.7vw;
+    font-size: 5vw;
     padding-top: 4.8vw;
     padding-bottom: 4.8vw;
     letter-spacing: 0.2vw;
   }
   
   li {
-    font-size: 2.7vw;
+    font-size: 3.1vw;
     padding: 3.2vw;
   }
   
@@ -783,6 +782,7 @@ transition: 0.5s;
 
   .micro-slider {
     height: 91vw;
+    user-select: none;
   }
   
   .slider-item {
