@@ -743,11 +743,12 @@ transition: 0.5s;
   }
   
   .parallax-two {
-    display: flex;
+    display: none;  
+/*  display: flex;
     justify-content: center;
     height: 75vw;
     align-items: center;
-    margin-bottom: 0vw;
+    margin-bottom: 0vw; */
   }
   
   .parallax-three {
