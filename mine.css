@@ -650,8 +650,8 @@ transition: 0.5s;
   
   
   .alt_block {
-    margin-top: 19vw;
-    margin-bottom: 19vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
     display: flex;
   }
   
@@ -746,7 +746,7 @@ transition: 0.5s;
     justify-content: center;
     height: 75vw;
     align-items: center;
-    margin-bottom: 20vw;
+    margin-bottom: 0vw;
   }
   
   .parallax-three {
