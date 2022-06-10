@@ -109,13 +109,13 @@ h2 {font-size:1.3vw; font-weight:400; letter-spacing:0.3vw; text-transform: uppe
 h3 {font-size:2.4vw; font-weight:300; letter-spacing:0.4vw; text-transform: uppercase; color:#f4f4f4; line-height: 4vw;
 text-align: center; transform: translate(0px, 1.5vw);
 opacity: 0;
-transition: all 0.3s ease 0s;}
+transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);}
 
 
 h3._active {font-size:2.4vw; font-weight:300; letter-spacing:0.4vw; text-transform: uppercase; color:#f4f4f4; line-height: 4vw;
   text-align: center; transform: translate(0px, 0vw);
   opacity: 1;
-  transition: all 0.7s ease 0s;}
+  transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);}
 
 
 /* Section - Title */
@@ -198,7 +198,7 @@ header {
 
   transform: translate(0px, 3vw);
   opacity: 0;
-  transition: all 1s ease 0s;
+  transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .before_argument._active {
@@ -217,7 +217,7 @@ header {
 
   transform: translate(0px, 5vw);
   opacity: 0;
-  transition: all 1.2s ease 0s;
+  transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .argument._active {
@@ -234,7 +234,7 @@ header {
 
   transform: translate(0px, 5vw);
   opacity: 0;
-  transition: all 1.2s ease 0s;
+  transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .after_argument._active {
@@ -271,7 +271,7 @@ header {
 
   /* transform: translate(3vw, 0vw);
   opacity: 0;
-  transition: all 1.2s ease 0s; */
+  transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1); */
 }
 
  /* .postIMG._active {
@@ -288,7 +288,7 @@ header {
   background-repeat: no-repeat; 
   background-position: center center;
   /* filter: brightness(1);
-	transition: all 0.7s ease 0s; */
+	transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1); */
 }
 
 /* .alt_postIMG._active {
@@ -301,7 +301,7 @@ header {
   justify-content: center;
   height: 35vw;
   align-items: center;
-  /* transition: all 1800ms ease-out; */
+  /* transition: all 1800ms cubic-bezier(0.16, 1, 0.3, 1); */
 }
 
 .parallax-two {
@@ -309,7 +309,7 @@ header {
   justify-content: center;
   height: 35vw;
   align-items: center;
-  /* transition: all 1800ms ease-out; */
+  /* transition: all 1800ms cubic-bezier(0.16, 1, 0.3, 1); */
 }
 
 .parallax-three {
@@ -318,7 +318,7 @@ header {
   height: 24vw;
   align-items: center;
   margin-top: 5vw;
-  /* transition: all 1800ms ease-out; */
+  /* transition: all 1800ms cubic-bezier(0.16, 1, 0.3, 1); */
 }
 /* 
 .parallax-one:hover {
@@ -687,9 +687,6 @@ transition: 0.5s;
     align-self: center;
     width: 72vw;
     letter-spacing: 0.4vw;
-    transform: translate(0px, 3.6vw);
-    opacity: 0;
-    transition: all 0.7s ease 0s;
   }
   
   
