@@ -508,7 +508,8 @@ transition: 0.5s;
   text-align: center;
   top: 0;
   width: 25vw;
-  cursor: grab;
+/*   cursor: grab; */
+  user-select: none;
 }
 
 
