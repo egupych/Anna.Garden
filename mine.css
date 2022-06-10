@@ -653,6 +653,7 @@ transition: 0.5s;
     margin-top: 0vw;
     margin-bottom: 0vw;
     display: flex;
+    flex-direction: column-reverse;
   }
   
   .premier_block {
