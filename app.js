@@ -144,18 +144,18 @@ document.addEventListener('DOMContentLoaded', () => {
 	let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
 	  
 	
-	//detect gesture tap event with hammer js library
-	hammer.on('tap', function(e) {
-	  clearInterval(__msAutoplay);
-	  console.log(e.type + ' gesture detected');
-	});
+// 	//detect gesture tap event with hammer js library
+// 	hammer.on('tap', function(e) {
+// 	  clearInterval(__msAutoplay);
+// 	  console.log(e.type + ' gesture detected');
+// 	});
 	
-	//detect gesture swipe event with hammer js library
-	hammer.on('swipe', function(e) {
-	  clearInterval(__msAutoplay); 
-	  __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-	  console.log(e.type + ' gesture detected');
-	});
+// 	//detect gesture swipe event with hammer js library
+// 	hammer.on('swipe', function(e) {
+// 	  clearInterval(__msAutoplay); 
+// 	  __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+// 	  console.log(e.type + ' gesture detected');
+// 	});
 	
   });
 
