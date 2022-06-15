@@ -109,13 +109,13 @@ h2 {font-size:1.3vw; font-weight:400; letter-spacing:0.3vw; text-transform: uppe
 h3 {font-size:2.4vw; font-weight:300; letter-spacing:0.4vw; text-transform: uppercase; color:#f4f4f4; line-height: 4vw;
 text-align: center; transform: translate(0px, 1.5vw);
 opacity: 0;
-transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);}
+transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);}
 
 
 h3._active {font-size:2.4vw; font-weight:300; letter-spacing:0.4vw; text-transform: uppercase; color:#f4f4f4; line-height: 4vw;
   text-align: center; transform: translate(0px, 0vw);
   opacity: 1;
-  transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);}
+  transition: all 1.3s cubic-bezier(0.16, 1, 0.3, 1);}
 
 
 /* Section - Title */
@@ -198,7 +198,7 @@ header {
 
   transform: translate(0px, 3vw);
   opacity: 0;
-  transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .before_argument._active {
@@ -217,7 +217,7 @@ header {
 
   transform: translate(0px, 5vw);
   opacity: 0;
-  transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 1.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .argument._active {
@@ -234,7 +234,7 @@ header {
 
   transform: translate(0px, 5vw);
   opacity: 0;
-  transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 1.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .after_argument._active {
