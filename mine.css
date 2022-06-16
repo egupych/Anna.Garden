@@ -100,6 +100,7 @@ body {
 	font-size: 1.2vw;
 	transition: transform 1000ms;
 	user-select: none; /* Не даёт взаимодействовать с текстом */
+	background-color: #f6f6f6;
 }
 
 
@@ -120,8 +121,8 @@ h3._active {font-size:2.4vw; font-weight:300; letter-spacing:0.4vw; text-transfo
 
 /* Section - Title */
 /**************************/
-.title {background: white; margin:0 auto; text-align:center;display: block;width: 100%;}
-.title2 {background: white;  margin:0 auto; text-align:center;display: block;width: 100%;}
+.title {background: #f6f6f6; margin:0 auto; text-align:center;display: block;width: 100%;}
+.title2 {background: #f6f6f6;  margin:0 auto; text-align:center;display: block;width: 100%;}
 
 
 /* Section - Parallax */
@@ -160,7 +161,6 @@ header {
   margin-bottom: 8vw;
   display: flex;
   flex-wrap: wrap;
-  background-color: #fff;
 }
 
 .premier_block {
@@ -499,7 +499,7 @@ transition: 0.5s;
 }
 
 .slider-item {
-  background: #FFF;
+  background: #f6f6f6;
   color: #FFF;
   display: none;
   height: 25vw;
