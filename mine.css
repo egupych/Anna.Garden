@@ -269,6 +269,7 @@ header {
   -webkit-background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center;
+		border-radius: 0vw 20vw 20vw 0vw;
 
   /* transform: translate(3vw, 0vw);
   opacity: 0;
@@ -288,6 +289,7 @@ header {
   -webkit-background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center;
+	border-radius: 20vw 0vw 0vw 20vw;
   /* filter: brightness(1);
 	transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1); */
 }
@@ -728,12 +730,14 @@ transition: 0.5s;
   .postIMG{
     min-height: 75vw;
     width: 100%;
+    border-radius: 0vw 0vw 0vw 0vw;
   }
   
   
   .alt_postIMG{
     min-height: 75vw;
     width: 100%;
+    border-radius: 0vw 0vw 0vw 0vw;
   }
   
   .parallax-one {
