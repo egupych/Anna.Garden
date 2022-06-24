@@ -632,7 +632,7 @@ transition: 0.5s;
   
   
   header {
-    height: 90vw;
+    height: 56vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -739,7 +739,7 @@ transition: 0.5s;
   .parallax-one {
     display: flex;
     justify-content: center;
-    height: 90vw;
+    height: 56vw;
     align-items: center;
   }
   
