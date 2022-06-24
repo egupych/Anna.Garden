@@ -140,7 +140,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-bottom: 4vw;
+  margin-bottom: 14vw;
 }
 
 .block, .block1 {
@@ -263,7 +263,7 @@ header {
 
 .postIMG{
   min-height: 35vw;
-  width: 50%;
+  width: 45%;
   background-size: cover; 
   -moz-background-size: cover; 
   -webkit-background-size: cover; 
@@ -283,13 +283,14 @@ header {
 
 .alt_postIMG{
   min-height: 35vw;
-  width: 50%;
+  width: 45%;
   background-size: cover; 
   -moz-background-size: cover; 
   -webkit-background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center;
 border-radius: 5vw 60vw 5vw 60vw;
+	    margin: 5vw;
   /* filter: brightness(1);
 	transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1); */
 }
