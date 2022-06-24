@@ -300,7 +300,7 @@ header {
 .parallax-one {
   display: flex;
   justify-content: center;
-  height: 60vw;
+  height: 56vw;
   align-items: center;
   /* transition: all 1800ms cubic-bezier(0.16, 1, 0.3, 1); */
 }
@@ -327,7 +327,7 @@ header {
 } */
 
 .parallax-one img{
- height: 60vw;
+ height: 56vw;
 }
 
 /* 
