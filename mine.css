@@ -270,7 +270,7 @@ header {
   -webkit-background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center;
-	border-radius: 60vw 5vw 60vw 5vw;
+	border-radius: 65vw 5vw 60vw 5vw;
 
   /* transform: translate(3vw, 0vw);
   opacity: 0;
@@ -290,7 +290,7 @@ header {
   -webkit-background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center;
-border-radius: 5vw 60vw 5vw 60vw;
+border-radius: 5vw 55vw 5vw 60vw;
   /* filter: brightness(1);
 	transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1); */
 }
