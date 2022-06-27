@@ -161,6 +161,7 @@ header {
   margin-bottom: 8vw;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .premier_block {
