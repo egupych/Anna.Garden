@@ -136,7 +136,7 @@ h3._active {font-size:2.4vw; font-weight:300; letter-spacing:0.4vw; text-transfo
 
 
 header {
-  height: 64vw;
+  height: 52vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -636,7 +636,6 @@ transition: 0.5s;
   
   
   header {
-    height: 64vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
