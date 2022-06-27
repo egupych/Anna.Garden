@@ -136,7 +136,7 @@ h3._active {font-size:2.4vw; font-weight:300; letter-spacing:0.4vw; text-transfo
 
 
 header {
-  height: 56vw;
+  height: 64vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -303,7 +303,7 @@ border-radius: 5vw 60vw 5vw 60vw;
 .parallax-one {
   display: flex;
   justify-content: center;
-  height: 56vw;
+  height: 64vw;
   align-items: center;
   /* transition: all 1800ms cubic-bezier(0.16, 1, 0.3, 1); */
 }
@@ -331,7 +331,7 @@ border-radius: 5vw 60vw 5vw 60vw;
 } */
 
 .parallax-one img{
- height: 56vw;
+ height: 64vw;
 }
 
 /* 
