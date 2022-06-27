@@ -291,7 +291,6 @@ header {
   background-repeat: no-repeat; 
   background-position: center center;
 border-radius: 5vw 60vw 5vw 60vw;
-	    margin: 5vw;
   /* filter: brightness(1);
 	transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1); */
 }
