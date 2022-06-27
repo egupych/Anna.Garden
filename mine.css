@@ -140,7 +140,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-bottom: 14vw;
+  margin-bottom: 9vw;
 }
 
 .block, .block1 {
