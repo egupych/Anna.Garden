@@ -1,227 +1,207 @@
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-//Анимация слайдов карусели
-//::::::::::::::::::::::::::::::::::::::::::::::::::
+<!DOCTYPE html>
+<html lang="ru">
 
-// const slides = document.querySelectorAll(".slide");
 
-// for (const slide of slides) {
-//   slide.addEventListener("mouseover", () => {
-//     clearActiveClasses();
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Овощи и ягоды с огорода для Вашего стола">
+  <meta name="keywords" content="овощи, ягоды, помидор, огурец, баклажан, картошка, частник, с огорода, фермер, смородина, варенье">
+  <meta name="Author" content="Egupych"> 
+  <meta name="Copyright" content="Anna Archipova"> 
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="Порадуйте себя натуральным урожаем">
+  <meta property="og:image" content="https://sun9-west.userapi.com/sun9-15/s/v1/if1/qtXjg3cYKyYHvDrwa1v0ZNQ1WkONcW1Sn-9QdPk5zbSzuYhR_d0tSx_mhFetm70acC7nIwMI.jpg?size=1280x1190&quality=96&type=album">
+  <!-- <meta property="og:url" content="https://egupych.github.io/исправить! ссылку на сайт">  -->
+  <meta property="og:site_name" content="Урожай с огорода для Вашего стола">
+  <title>Свежий урожай с огорода для Вас</title>
+  <link rel="stylesheet" href="mine.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+  </style>
+  <link rel="shortcut icon" href="gardenICON.png" type="image/png" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9LFF0ZF4M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T9LFF0ZF4M');
+  </script> исправить! ссылку на сайт-->
+</head>
+
+
+<body>
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::: -->  
+<!-- Навигация                                          --> 
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::: --> 
+
+  <!-- <nav>
+    <a class="logo" onclick="setScrollIntoView5Options()">Stud.Biology</a>
+    <div class="links">
+      <a class="link linkOut" onclick="setScrollIntoView1Options()">Обо мне</a>
+      <a class="link linkOut" onclick="setScrollIntoView2Options()">О занятиях</a>
+      <a class="link linkOut" onclick="setScrollIntoView3Options()">Стоимость</a>
+      <a class="link linkOut" onclick="setScrollIntoView4Options()">Темы</a>
+      <div class="cursor1"></div>
+      <div class="cursor2"></div>
+      <div class="cursor3"></div>
+      <div class="cursor4"></div>
+    </div>
+  </nav> -->
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::: -->  
+<!-- Титульный слайд                                    --> 
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::: --> 
+
+
+  
+    <header onclick="setScrollIntoViewOptions()">
+      <section>
+        <div class="title">
+          <h2>С огорода для Вашего стола</h2>
+        </div>
+      </section>
+      
+      <section>
+          <div class="parallax-one">
+            <img class="logo _anim-items _anim-no" src="https://raw.githubusercontent.com/Egupych/Anna.Garden/58cdfdab527f0403970b64261a8a49e5c40b99b0/Frame%201%20(2).svg" alt="ANNA.GARDEN">
+          </div>
+      </section>
+
+      <section>
+        <div class="title2">
+          <h2>Овощи, фрукты, ягоды</h2>
+        </div>
+      </section>
+     </header>
     
-//     slide.classList.add("active");
-//   });
-// }
+    <section>
+      <div class="block1">
+        <div class="block_argument">
+          <div class="before_argument _anim-items _anim-no">ПОЧЕМУ ВЫБИРАЮТ НАС?</div>
+          <div class="argument _anim-items _anim-no">100% ЭКОЛОГИЧЕСКИ ЧИСТЫЕ ОВОЩИ <br> И ЯГОДЫ</div>
+          <div class="after_argument _anim-items _anim-no">Мы не применяем химические вещества, которые способствуют быстрому росту</div>
+        </div>
+        <div class="postIMG _anim-items _anim-no" style="background-image: url(https://images.unsplash.com/photo-1597916829826-02e5bb4a54e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=100);" ></div>
+      </div>
+    </section>
 
-// function clearActiveClasses() {
-//   slides.forEach((slide) => {
-//     slide.classList.remove("active");
-//   });
-// }
+    <section>
+      <div class="alt_block">
+        <div class="alt_postIMG _anim-items _anim-no" style="background-image: url(https://images.unsplash.com/photo-1538709034622-ef769aba06eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=100);" ></div>
 
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-//Анимация прокрутки до якоря
-//::::::::::::::::::::::::::::::::::::::::::::::::::
+        <div class="alt_block_argument">
+          <div class="before_argument _anim-items _anim-no">ПОЧЕМУ ВЫБИРАЮТ НАС?</div>
+          <div class="argument _anim-items _anim-no">НЕ ИСПОЛЬЗУЕМ ХИМИЮ</div>
+          <div class="after_argument _anim-items _anim-no">Мы не используем химию против насекомых и сорняков. <br> Качество и сохранность урожая достигается постоянным контролем</div>
+        </div>
+      </div>
+    </section>
+    
 
-function setScrollIntoView(top) {
-	const me = document.querySelector('.me');
-	me.scrollIntoView(top);
-}
+    
+    <section>
+      <div class="block">
+        <div class="block_argument">
+          <div class="before_argument _anim-items _anim-no">ПОЧЕМУ ВЫБИРАЮТ НАС?</div>
+          <div class="argument _anim-items _anim-no">НАШИ ЦЕНЫ</div>
+          <div class="after_argument _anim-items _anim-no">Демократичные цены и акции порадуют Вас. <br> Скидки и бонусы для постоянных покупателей</div>
+        </div>
+        <div class="postIMG _anim-items _anim-no" style="background-image: url(https://github.com/Egupych/ANNA.Garden/blob/main/salePIC.jpg?raw=true);" ></div>
+      </div>
+    </section>
 
-function setScrollIntoViewOptions(top) {
-	const me = document.querySelector('.me');
-	me.scrollIntoView({
-		block: "start",
-		inline: "nearest",
-		behavior: "smooth"
-	});
-}
+    <section>
+      <div class="alt_block me">
+        <div class="alt_postIMG _anim-items _anim-no" style="background-image: url(https://github.com/Egupych/ANNA.Garden/blob/main/ANNAPIC1.jpg?raw=true);" ></div>
+        <div class="alt_block_argument">
+          <div class="before_argument _anim-items _anim-no">ОБО МНЕ</div>
+          <div class="argument _anim-items _anim-no">АННА АРХИПОВА</div>
+          <div class="after_argument _anim-items _anim-no">Фотограф, мемолог, аграрий и просто красавица</div>
+        </div>
+      </div>
+    </section>
+<!--                                    
+    <div class="product">
+      <div class="card">
+        <div class="circle"></div>
+        <div class="content">
+            <h4>Помидоры</h4>
+            <p>Томаты коктейльные – это гибридные сорта помидоров. Отличительная особенность – небольшие размеры (вес 30–60г) и плотная кожица, что упрощает их транспортировку и хранение. Имеют насыщенный аромат и кисло-сладкий вкус.</p>
+            <a href="#">Положить в корзину</a>
+        </div>
+        <img src="tomato.png">
+      </div>
 
+      <div class="card">
+        <div class="circle2"></div>
+        <div class="content">
+            <h4>Огурцы</h4>
+            <p>Огурцы короткоплодные с бугорчатой кожицей. Эти полезные, хрустящие овощи обладают отличным вкусом. Такие огурцы идеально подходят для употребления в свежем и консервированном виде.</p>
+            <a href="#">Положить в корзину</a>
+        </div>
+        <img src="Cucumber.png">
+      </div>
+    </div>
+ --> 
+    <section>
+      <div class="parallax-two">
+        <h3 class="_anim-items _anim-no">СОБИРАЕМ ЗА НЕСКОЛЬКО ЧАСОВ <br> ДО НАШЕЙ ВСТРЕЧИ</h3>
+      </div>
+    </section>
 
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-// Кастомный курсор
-//::::::::::::::::::::::::::::::::::::::::::::::::::
+    <section>
+      <div class="premier_block">
+        <div class="premier_block_argument">
+          <div class="prime_argument">СКОРО В ПРОДАЖЕ</div>
+          <div class="prime_after_argument">Совсем скоро порадуем Вас новым ассортиментом</div>
+        </div>
+      </div>
+    </section>
 
-
-// const cursor1 = document.querySelector(".cursor1");
-// document.addEventListener("mousemove", (e) => {
-//   cursor1.style.left= e.pageX+"px";
-//   cursor1.style.top= e.pageY+"px";
-// })
-
-// const cursor2 = document.querySelector(".cursor2");
-// document.addEventListener("mousemove", (e) => {
-//   cursor2.style.left= e.pageX+"px";
-//   cursor2.style.top= e.pageY+"px";
-// })
-
-// const cursor3 = document.querySelector(".cursor3");
-// document.addEventListener("mousemove", (e) => {
-//   cursor3.style.left= e.pageX+"px";
-//   cursor3.style.top= e.pageY+"px";
-// })
-
-// const cursor4 = document.querySelector(".cursor4");
-// document.addEventListener("mousemove", (e) => {
-//   cursor4.style.left= e.pageX+"px";
-//   cursor4.style.top= e.pageY+"px";
-// })
-
-
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-// Анимация появлении текста, фото
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-
-const animItems = document.querySelectorAll("._anim-items");
-
-if (animItems.length>0) {
-	window.addEventListener("scroll", animOnScroll);
-	function animOnScroll() {
-		for (let index = 0; index < animItems.length; index++) {
-			const animItem = animItems [index];
-			const animItemHeight = animItem.offsetHeight;
-			const animItemOffset = offset(animItem).top;
-			const animStart = 1;
-		
-			let animItemPoint = window.innerHeight - animItemHeight / animStart;
-			if (animItemHeight > window.innerHeight) {
-				animItemPoint = window.innerHeight - window.innerHeight / animStart;
-			}
-
-			if ((scrollY> animItemOffset - animItemPoint) && scrollY < (animItemOffset + animItemHeight)) {
-				animItem.classList.add('_active');
-			}  else {
-				if (!animItem.classList.contains('_anim-no')){
-					animItem.classList.remove('_active');
-				}
-			}
-		}
-	}
-
-	function offset(el) {
-		const rect = el.getBoundingClientRect(),
-			scrollLeft = window.scrollX || document.documentElement.scrollLeft,
-			scrollTop = window.scrollY || document.documentElement.scrollTop;
-		return {top: rect.top + scrollTop, left: rect.left + scrollLeft}
-	}
-	setTimeout(()=>{
-		animOnScroll();
-	},300);
-
-}
-
-
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-// Инерция скрола страницы (доработать)
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-
-// let y = 0
-
-// document.body.addEventListener('wheel', (e) => {
-//     const height = document.body.offsetHeight
-
-//     y = y + e.wheelDeltaY
+    <div id="micro-slider" >
+        <div class="micro-slider">
+          <div class="slider-item s1" style="background-image: url(https://images.unsplash.com/photo-1506917728037-b6af01a7d403?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=100);"></div>
+          <div class="slider-item s2" style="background-image: url(https://images.unsplash.com/photo-1567375698348-5d9d5ae99de0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=100);"></div>
+          <div class="slider-item s3" style="background-image: url(https://images.unsplash.com/photo-1553536645-f83758b55d23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1484&q=100);"></div>
+          <div class="slider-item s4" style="background-image: url(https://images.unsplash.com/photo-1626261137220-da233b5e3eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=100);"></div>
+          <div class="slider-item s5" style="background-image: url(https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=100);"></div>
+          <div class="slider-item s6" style="background-image: url(https://images.unsplash.com/photo-1589217157232-464b505b197f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=100);"></div>
+        </div>
+    </div>
   
-//     if(y < -height + window.innerHeight) {
-//       y = -height + window.innerHeight
-//     }
-  
-//     if(y > 0) {
-//       y = 0
-//     }
-  
-//     const tr = `translateY(${y}px)`
-//     document.body.style.transform = tr
+  <div class="container__timer">
+  <h5 id="headline">ДО ОТКРЫТИЯ СЕРВИСА</h5>
+  <div id="countdown">
+    <ul>
+      <li><div id="days"></div>Дней</li>
+      <li><div id="hours"></div>Часов</li>
+      <li><div id="minutes"></div>Минут</li>
+      <li><div id="seconds"></div>Секунд</li>
+    </ul>
+  </div>
+</div>
 
-// })
+    <section>
+      <div class="parallax-three">
+        <h3 class="_anim-items _anim-no">50% СКИДКА <br> НА ПЕРВЫЙ ЗАКАЗ</h3>
+      </div>
+    </section>
+<!-- 
+<h6 class="text">Скоро-открытие-Скоро-открытие-</h6> -->
 
-document.addEventListener('DOMContentLoaded', () => {
-  
-	//===== MICRO-SLIDER begin
-	const __ms = document.querySelector('.micro-slider');
-	const __msSlider = new MicroSlider(__ms, { indicators: true, indicatorText: '' });
-	const hammer = new Hammer(__ms);
-	  const __msTimer = 3000;
-	let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-	  
-	
-// 	//detect gesture tap event with hammer js library
-// 	hammer.on('tap', function(e) {
-// 	  clearInterval(__msAutoplay);
-// 	  console.log(e.type + ' gesture detected');
-// 	});
-	
-// 	//detect gesture swipe event with hammer js library
-// 	hammer.on('swipe', function(e) {
-// 	  clearInterval(__msAutoplay); 
-// 	  __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-// 	  console.log(e.type + ' gesture detected');
-// 	});
-	
-  });
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::: -->  
+<!--                                         --> 
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::: -->  
+
+<script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="app.js"></script>
 
 
-
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-// Таймер
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-(function () {
-  const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
-
-  //I'm adding this section so I don't have to keep updating this pen every year :-)
-  //remove this if you don't need it
-  let today = new Date(),
-      dd = String(today.getDate()).padStart(2, "0"),
-      mm = String(today.getMonth() + 1).padStart(2, "0"),
-      yyyy = today.getFullYear(),
-      nextYear = yyyy + 1,
-      dayMonth = "09/1/",
-      birthday = dayMonth + yyyy;
-  
-  today = mm + "/" + dd + "/" + yyyy;
-  if (today > birthday) {
-    birthday = dayMonth + nextYear;
-  }
-  //end
-  
-  const countDown = new Date(birthday).getTime(),
-      x = setInterval(function() {    
-
-        const now = new Date().getTime(),
-              distance = countDown - now;
-
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-        if (distance < 0) {
-          document.getElementById("headline").innerText = "Мы открылись!";
-          document.getElementById("countdown").style.display = "none";
-          document.getElementById("content").style.display = "block";
-          clearInterval(x);
-        }
-      }, 0)
-  }());
-
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-// Текст вокруг курсора
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-
-const text = document.querySelector('.text')
-text.innerHTML = text.textContent.replace (/\S/g, "<span>$&</span>");
-
-const element = document.querySelectorAll("span");
-for (let i=0; i < element.length; i++) {
-	element[i].style.transform = "rotate("+i*12+"deg)"
-}
-
-document.addEventListener("mousemove", function(e)
-{
-	text.style.left = e.pageX + "px";
-	text.style.top = e.pageY + "px";
-})
+</body>
+</html>
