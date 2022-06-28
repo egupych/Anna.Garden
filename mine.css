@@ -128,11 +128,11 @@ h3._active {font-size:2.4vw; font-weight:300; letter-spacing:0.4vw; text-transfo
 /* Section - Parallax */
 /**************************/
 .parallax-one {overflow: hidden; display: block;
-  position: relative; width: 100%; background:  url(https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1440&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+  position: relative; width: 100%; background:  url(https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1440&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; }
 .parallax-two {padding-top: 7vw; padding-bottom: 7vw; overflow: hidden; 
-  position: relative; width: 100%; background:  url(https://images.unsplash.com/photo-1464297162577-f5295c892194?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+  position: relative; width: 100%; background:  url(https://images.unsplash.com/photo-1464297162577-f5295c892194?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat;}
 .parallax-three {padding-top: 7vw; padding-bottom: 7vw; overflow: hidden; 
-  position: relative; width: 100%; background:  url(https://images.unsplash.com/photo-1464297162577-f5295c892194?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+  position: relative; width: 100%; background:  url(https://images.unsplash.com/photo-1464297162577-f5295c892194?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=100); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; }
 
 
 header {
@@ -306,6 +306,7 @@ border-radius: 5vw 55vw 5vw 60vw;
   height: 64vw;
   align-items: center;
   /* transition: all 1800ms cubic-bezier(0.16, 1, 0.3, 1); */
+	box-shadow: inset 0vw 15vw 20vw 0px #6363632b;
 }
 
 .parallax-two {
@@ -315,6 +316,7 @@ border-radius: 5vw 55vw 5vw 60vw;
   align-items: center;
   border-radius: 50% 50% 0 0;
   /* transition: all 1800ms cubic-bezier(0.16, 1, 0.3, 1); */
+	box-shadow: inset 0vw 15vw 20vw 0px #6363632b;
 }
 
 .parallax-three {
@@ -324,6 +326,7 @@ border-radius: 5vw 55vw 5vw 60vw;
   align-items: center;
   margin-top: 5vw;
   /* transition: all 1800ms cubic-bezier(0.16, 1, 0.3, 1); */
+	box-shadow: inset 0vw 15vw 20vw 0px #6363632b;
 }
 /* 
 .parallax-one:hover {
