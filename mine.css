@@ -745,7 +745,7 @@ transition: 0.5s;
   .parallax-one {
     display: flex;
     justify-content: center;
-    height: 56vw;
+    height: 64vw;
     align-items: center;
   }
   
