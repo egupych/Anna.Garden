@@ -519,7 +519,7 @@ transition: 0.5s;
 
 
 .s1, .s2, .s3, .s4, .s5, .s6
-{background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+{background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)); background-attachment: fixed; background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
 
 
